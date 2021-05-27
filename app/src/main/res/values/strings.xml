@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVM_To-DoListApp</string>
+    <string name="fb_add_task_description">Add Task</string>
+    <string name="task_priority">Task Priority</string>
+</resources>
