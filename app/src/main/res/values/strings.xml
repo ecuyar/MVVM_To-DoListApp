@@ -2,4 +2,8 @@
     <string name="app_name">MVVM_To-DoListApp</string>
     <string name="fb_add_task_description">Add Task</string>
     <string name="task_priority">Task Priority</string>
+    <string name="save_task">Save Task</string>
+    <string name="name_of_the_task_hint">Name of the task</string>
+    <string name="important">Important</string>
+    <string name="date_created">Date Created:</string>
 </resources>
