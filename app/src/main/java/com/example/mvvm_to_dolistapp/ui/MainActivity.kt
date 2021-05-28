@@ -1,7 +1,8 @@
-package com.example.mvvm_to_dolistapp
+package com.example.mvvm_to_dolistapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mvvm_to_dolistapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
