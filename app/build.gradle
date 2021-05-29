@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.kapt'
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs.kotlin'
     id 'kotlin-parcelize'
@@ -79,6 +79,8 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hiltAndroidXVersion"
     kapt "androidx.hilt:hilt-compiler:$hiltAndroidXVersion"
+    implementation "com.google.dagger:dagger:$hiltVersion"
+    kapt "com.google.dagger:dagger-compiler:$hiltVersion"
 
     // DataStore
     implementation "androidx.datastore:datastore-preferences:${dataStoreVersion}"
